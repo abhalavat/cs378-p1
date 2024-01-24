@@ -1,6 +1,6 @@
 #logo {
     width: 80%;
-    margin: 5vh auto;
+    margin: 8vh auto;
 }
 
 #slogan {
@@ -19,37 +19,25 @@
 
 img {
     width:100%;
-    margin: 1vh 0;
+    min-height: 100%;
+    object-fit: cover;
+    border-radius: 20%;
+    margin: 0;
 }
 
 #list {
     margin: 5vh 2vw;
 }
 
-button {
-    border-radius: 40% / 50%;
-    box-shadow: 0 0.2vh 0.4vh rgba(0, 0, 0, 0.4);
-}
-
-.description {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 1em;
-}
-
 .description-text {
+    color: rgba(0, 0, 0, 0.5);
     margin: 0%;
 }
 
 .button {
-    font-size: 1em;
+    border-radius: 40% / 50%;
+    box-shadow: 0 0.2vh 0.4vh rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.menu-img {
-    min-height: 100%;
-    object-fit: cover;
-    border-radius: 20%;
-    margin: 0;
 }
 
 .img-container {
